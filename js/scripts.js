@@ -9,13 +9,13 @@ var countNumbers = [];
   for (var i = startNumber; i <= endNumber; i++) {
 
     if(i%3 !== 0 && i%5 !==0 && i%15 !== 0) {
-      countNumbers.push(" " + i)
+      countNumbers.push(" " + i);
     } else if (i%15 === 0) {
-      countNumbers.push(" ping-pong")
+      countNumbers.push(" ping-pong");
     } else if (i%3 === 0) {
       countNumbers.push(" ping");
     } else if (i%5 === 0) {
-      countNumbers.push(" pong")
+      countNumbers.push(" pong");
     }
   }
   return countNumbers;
