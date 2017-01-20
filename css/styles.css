@@ -1,14 +1,30 @@
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#header {
+  margin-bottom: 0px;
+}
+
 #header h1 {
   text-align: center;
   background-color: lightgrey;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 #sidebar-col {
   float: left;
-  background-color: lightgreen;
-  height: 800px;
+  /*background-color: lightgreen;*/
+  height: 300px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #sidebar-col h3 {
@@ -17,8 +33,26 @@ text-align: center;
 
 #game-col {
   float: right;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #game-col h3 {
   text-align: center;
+}
+
+#game-col ol {
+  margin-bottom: 30px;
+}
+
+#game-col form{
+  text-align: center;
+}
+
+.p-style {
+  font-size: 14px;
+}
+
+.header-font {
+  font-family: 'Oxygen Mono', monospace;
 }
