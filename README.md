@@ -33,7 +33,7 @@ This simple Javascript game counts up from 1 to the number inputted by the user,
 * Open index.html in your preferred browser
 * Enter a number and click play
 * The program will count from 1 up to your inputted number, replacing numbers with "ping", "pong", or "ping-pong" according to the stated game rules!
-* Alternately, you may visit the live version of this game here:
+* Alternately, you may visit the live version of this game here: https://brynnacodes.github.io/ping-pong-game/
 
 ## Known Bugs
 
