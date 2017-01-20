@@ -7,9 +7,15 @@ body {
   margin-bottom: 0px;
 }
 
+#header #pong-img {
+  width: 100px;
+  margin-right: 20px;
+}
+
 #header h1 {
   text-align: center;
-  background-color: lightgrey;
+  background-color: #329932;
+  color: white;
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 50px;
@@ -28,7 +34,7 @@ body {
 }
 
 #sidebar-col h3 {
-text-align: center;
+  text-align: center;
 }
 
 #game-col {
