@@ -7,8 +7,21 @@ var endNumber = userNumber;
 var countList = [];
 
   for (var i = startNumber; i <= endNumber; i++) {
-    countList.push(i);
-    console.log(countList);
+
+    if(i%3 !== 0 && i%5 !==0 && i%15 !== 0) {
+      countList.push(i);
+    } else if (i%15 === 0) {
+      countList.push("ping-pong")
+    } else if (i%3 === 0){
+      countList.push("ping");
+    } else if (i%5 === 0) {
+      countList.push("pong")
+    }
+    // if (i%3) {
+    //   i = countList.push("ping");
+    // } else {
+    // countList.push(i);
+    // }
   }
   return countList;
 }
@@ -21,9 +34,9 @@ $(document).ready(function() {
     event.preventDefault();
     var userNumber = parseInt($("#user-number").val());
 
-      alert(userNumber);
+      // alert(userNumber);
     var numberOutput = pingPong(userNumber);
 
-    $("#ping-pong-results").text("<li>" + numberOutput + "</li>");
+    $("#ping-pong-results").text(numberOutput);
   });
 });
